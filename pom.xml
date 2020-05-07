@@ -4,10 +4,10 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.batoulapps.adhan</groupId>
+    <groupId>com.mostasim.prayer_time</groupId>
     <artifactId>parent</artifactId>
     <packaging>pom</packaging>
-    <version>1.2.0</version>
+    <version>1.0.0</version>
     <modules>
         <module>adhan</module>
         <module>samples</module>
@@ -47,20 +47,15 @@
         </dependencies>
     </dependencyManagement>
 
-    <repositories>
-       <repository>
-          <id>jcenter</id>
-          <name>JCenter</name>
-          <url>https://jcenter.bintray.com</url>
-       </repository>
-    </repositories>
 
     <distributionManagement>
         <repository>
-            <id>adhan-repo-maven</id>
-            <url>https://api.bintray.com/maven/batoulapps/adhan/com.batoulapps.adhan/;publish=1</url>
+            <id>prayer-time-java</id>
+            <name>GitHub Adhan Java Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/mostasim/PrayerTime-Java</url>
         </repository>
     </distributionManagement>
+
     <build>
         <plugins>
             <plugin>
