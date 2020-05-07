@@ -52,7 +52,7 @@
         <repository>
             <id>prayer-time-java</id>
             <name>GitHub Adhan Java Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/mostasim/PrayerTime-Java</url>
+            <url>https://maven.pkg.github.com/mostasim/adhan-java</url>
         </repository>
     </distributionManagement>
 
